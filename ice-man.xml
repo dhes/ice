@@ -1,0 +1,22 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <soap:Body>
+    <evaluate xmlns="http://www.omg.org/spec/CDSS/201105/dss">
+      <interactionId>1</interactionId>
+      <evaluationRequest>
+        <clientLanguage>EN</clientLanguage>
+        <clientTimeZoneOffset>-10:00</clientTimeZoneOffset>
+        <dataRequirementItemData>
+          <data>
+            <patient>
+              <dateOfBirth>1953-06-05</dateOfBirth>
+              <gender>M</gender>
+            </patient>
+            <immunizations/>
+            <evaluationDate>2024-10-10</evaluationDate>
+            <seriesStatus>ACCEPTED</seriesStatus>
+          </data>
+        </dataRequirementItemData>
+      </evaluationRequest>
+    </evaluate>
+  </soap:Body>
+</soap:Envelope>

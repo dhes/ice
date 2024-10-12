@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns4:cdsInput xmlns:ns2="org.opencds"
+	xmlns:ns3="org.opencds.vmr.v1_0.schema.vmr"
+	xmlns:ns4="org.opencds.vmr.v1_0.schema.cdsinput"
+	xmlns:ns5="org.opencds.vmr.v1_0.schema.cdsoutput">
+	<templateId root="2.16.840.1.113883.3.795.11.1.1"/>
+	<cdsContext>
+		<cdsSystemUserPreferredLanguage code="en" codeSystem="2.16.840.1.113883.6.99" displayName="English"/>
+	</cdsContext>
+	<vmrInput>
+		<templateId root="2.16.840.1.113883.3.795.11.1.1"/>
+		<patient>
+			<templateId root="2.16.840.1.113883.3.795.11.2.1.1"/>
+			<id root="2.16.840.1.113883.3.795.12.100.11" extension="92"/>
+			<demographics>
+				<birthTime value="19900101"/>
+				<gender code="M" codeSystem="2.16.840.1.113883.5.1" displayName="Male" originalText="M"/>
+			</demographics>
+			<clinicalStatements>
+				<observationResults>
+					<observationResult>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="617478b8-b6eb-4988-853a-b5f5c2441eb8"/>
+						<observationFocus code="070.30" codeSystem="2.16.840.1.113883.6.103" displayName="Hepatitis B" originalText="070.30"/>
+						<observationEventTime low="19960315" high="19960315"/>
+						<observationValue>
+							<concept code="DISEASE_DOCUMENTED" codeSystem="2.16.840.1.113883.3.795.12.100.8" displayName="Disease Documented" originalText="DISEASE_DOCUMENTED"/>
+						</observationValue>
+						<interpretation code="IS_IMMUNE" codeSystem="2.16.840.1.113883.3.795.12.100.9" displayName="Is Immune" originalText="IS_IMMUNE"/>
+					</observationResult>
+				</observationResults>
+				<substanceAdministrationEvents>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="2.16.840.1.113883.3.795.12.100.10" extension="230"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5"/>
+						<substance>
+							<id root="6095733e-a576-44a2-b314-26a23e1ff6b6"/>
+							<substanceCode code="45" codeSystem="2.16.840.1.113883.12.292" displayName="HepB NOS" originalText="45"/>
+						</substance>
+						<administrationTimeInterval low="19900315" high="19900315"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="2.16.840.1.113883.3.795.12.100.10" extension="229"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5"/>
+						<substance>
+							<id root="c4361cf7-4387-4072-a55e-5bac066813ad"/>
+							<substanceCode code="45" codeSystem="2.16.840.1.113883.12.292" displayName="HepB NOS" originalText="45"/>
+						</substance>
+						<administrationTimeInterval low="19900401" high="19900401"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="2.16.840.1.113883.3.795.12.100.10" extension="228"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5"/>
+						<substance>
+							<id root="84e18c21-1a07-4347-b7fd-96f052a39ef6"/>
+							<substanceCode code="08" codeSystem="2.16.840.1.113883.12.292" displayName="HepB peds &lt; 20yrs" originalText="08"/>
+						</substance>
+						<administrationTimeInterval low="19960315" high="19960315"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="2.16.840.1.113883.3.795.12.100.10" extension="227"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5"/>
+						<substance>
+							<id root="fca8d517-9541-4f80-adbd-1528b3963360"/>
+							<substanceCode code="08" codeSystem="2.16.840.1.113883.12.292" displayName="HepB peds &lt; 20yrs" originalText="08"/>
+						</substance>
+						<administrationTimeInterval low="20100201" high="20100201"/>
+					</substanceAdministrationEvent>
+				</substanceAdministrationEvents>
+			</clinicalStatements>
+		</patient>
+	</vmrInput>
+</ns4:cdsInput>

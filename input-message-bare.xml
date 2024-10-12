@@ -1,0 +1,225 @@
+<!-- Message Begins -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- CDSInput Section Begins (mandatory) -->
+<ns4:cdsInput xmlns:ns2="org.opencds" xmlns:ns3="org.opencds.vmr.v1
+0.schema.vmr"
+_
+xmlns:ns4="org.opencds.vmr.v1
+0.schema.cdsinput" xmlns:ns5="org.opencds.vmr.v1
+0.schema.cdsoutput">
+_
+_
+<templateId root="2.16.840.1.113883.3.795.11.1.1"/>
+<!-- CDSContext Section Begins (mandatory) -->
+<cdsContext>
+<!-- Specify user Preferred Language -->
+<cdsSystemUserPreferredLanguage code="en" codeSystem="2.16.840.1.113883.6.99"
+displayName="English"/>
+</cdsContext>
+<!-- CDSContext Section Ends -->
+<!-- vMR Input Section Begins (mandatory) -->
+<vmrInput>
+<templateId root="2.16.840.1.113883.3.795.11.1.1"/>
+<!-- Patient Input Section Begins (mandatory) -->
+<patient>
+<templateId root="2.16.840.1.113883.3.795.11.2.1.1"/>
+<id root="{UNIQUE
+ROOT
+ID}" extension="{UNIQUE
+ROOT
+EXTENSION}"/> <!-- root & extension
+_
+_
+_
+_
+attributes appended together must be unique across all root & root/extension values for the entire
+message. The unique identifier cannot be repeated anywhere in the message. Suggestion: use the Globally
+Unique Identifer (GUID) algorithm to generate the root attribute value only and do not bother specifying
+the extension. Example GUID value: 0368a1b4-0f93-402e-841d-e0b02943300d -->
+<!-- Patient Birthdate and Gender Section Begins (mandatory) -->
+<demographics>
+<birthTime value="{YYYYMMDD}"/> <!-- e.g. February 29, 2012 would be specified by
+20120229 -->
+<gender code="{GENDER
+CODE}" codeSystem="2.16.840.1.113883.5.1"
+_
+displayName="{Optional
+Value}"/>
+_
+</demographics>
+<!-- Patient Birthdate and Gender Section Ends -->
+<clinicalStatements>
+<!-- Patient Disease Immunity Section Begins (optional) -->
+<observationResults>
+<observationResult>
+<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+14
+HLN Consulting, LLC – www.hln.com/ice June 2024
+Implementation Guide for Integrating with ICE
+<id root="{UNIQUE
+IDENTIFIER2}"/> _
+Identifier algorithm (GUID) -->
+<observationFocus code="{DISEASE
+IMMUNITY
+FOCUS
+_
+_
+_
+codeSystem="2.16.840.1.113883.6.103" displayName="
+..
+" originalText="
+..
+"/> ICD-9-CM, SNOMED-CT, or ICD-10. See Disease code tables -->
+<!-- Suggestion: Use Globally Unique
+CODE}"
+<!—codeSystem may be OID for
+<!-- ObservationEventTime low and high attributes are dates in YYYYMMDD format,
+and they must be the same value -->
+<observationEventTime low="{YYYYMMDD}" high="{YYYYMMDD}"/>
+<observationValue>
+<concept code="{DISEASE
+DOCUMENTATION
+CODE}"
+_
+_
+codeSystem="2.16.840.1.113883.3.795.12.100.8" displayName="
+..
+" originalText="
+..
+"/>
+</observationValue>
+<interpretation code="{DISEASE
+IMMUNITY
+INTERPRETATION
+_
+_
+_
+codeSystem="2.16.840.1.113883.3.795.12.100.9" displayName="
+..
+" originalText="
+..
+CODE}"
+"/>
+</observationResult>
+<observationResult>
+[Record another disease immunity information here if necessary …]
+</observationResult>
+<observationResult>
+[Record another disease immunity information here if necessary …]
+</observationResult>
+</observationResults>
+<!-- Patient Disease Immunity Section Ends -->
+<!-- List of Vaccines Administered Begins (optional) -->
+<substanceAdministrationEvents>
+<!-- Shot number #1 Begin -->
+<substanceAdministrationEvent>
+<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+<id root="{UNIQUE
+IDENTIFIER3}"/>
+_
+<substanceAdministrationGeneralPurpose code="384810002"
+codeSystem="2.16.840.1.113883.6.5"/>
+<substance>
+<id root="{UNIQUE
+IDENTIFIER4}"/>
+_
+<substanceCode code="{CVX
+CODE}" codeSystem="2.16.840.1.113883.12.292"
+_
+displayName="
+..
+" originalText="
+..
+"/>
+</substance>
+<administrationTimeInterval low="{YYYYMMDD}" high="{YYYYMMDD}"/>
+</substanceAdministrationEvent>
+<!-- Shot number #1 End -->
+15
+HLN Consulting, LLC – www.hln.com/ice June 2024
+Implementation Guide for Integrating with ICE
+<!-- Shot number #2 Begin -->
+<substanceAdministrationEvent>
+<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+<id root="{UNIQUE
+IDENTIFIER5}"/>
+_
+<substanceAdministrationGeneralPurpose code="384810002"
+codeSystem="2.16.840.1.113883.6.5"/>
+<substance>
+<id root="{UNIQUE
+IDENTIFIER6}"/>
+_
+<substanceCode code="{CVX
+CODE}" codeSystem="2.16.840.1.113883.12.292"
+_
+displayName="
+..
+" originalText="
+..
+"/>
+</substance>
+<administrationTimeInterval low="{YYYYMMDD}" high="{YYYYMMDD}"/>
+</substanceAdministrationEvent>
+<!-- Shot number #2 End -->
+<!-- Shot number #3 Begin -->
+<substanceAdministrationEvent>
+<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+<id root="{UNIQUE
+IDENTIFIER7}"/>
+_
+<substanceAdministrationGeneralPurpose code="384810002"
+codeSystem="2.16.840.1.113883.6.5"/>
+<substance>
+<id root="{UNIQUE
+IDENTIFIER8}"/>
+_
+<substanceCode code="{CVX
+CODE}" codeSystem="2.16.840.1.113883.12.292"
+_
+displayName="
+..
+" originalText="
+..
+"/>
+</substance>
+<administrationTimeInterval low="{YYYYMMDD}" high="{YYYYMMDD}"/>
+</substanceAdministrationEvent>
+<!-- Shot number #3 End -->
+<!-- Shot number 4 Begin -->
+<substanceAdministrationEvent>
+<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+<id root="{UNIQUE
+IDENTIFIER9}"/>
+_
+<substanceAdministrationGeneralPurpose code="384810002"
+codeSystem="2.16.840.1.113883.6.5"/>
+<substance>
+<id root="{UNIQUE
+IDENTIFIER10}"/>
+_
+<substanceCode code="{CVX
+CODE}" codeSystem="2.16.840.1.113883.12.292"
+_
+displayName="
+..
+" originalText="
+..
+"/>
+</substance>
+<administrationTimeInterval low="{YYYYMMDD}" high="{YYYYMMDD}"/>
+16
+HLN Consulting, LLC – www.hln.com/ice June 2024
+Implementation Guide for Integrating with ICE
+</substanceAdministrationEvent>
+<!-- Shot number 4 End -->
+</substanceAdministrationEvents>
+<!-- List of Vaccines Administered Ends -->
+</clinicalStatements>
+</patient>
+<!-- Patient Input Section Ends -->
+</vmrInput>
+<!-- VMR Input Section Ends -->
+</ns4:cdsInput>
+<!-- CDSInput Section Ends -->
+<!-- Message Ends -->

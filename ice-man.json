@@ -1,0 +1,9 @@
+{
+  "patient": {
+    "dateOfBirth": "1953-06-05",
+    "gender": "M"
+  },
+  "immunizations": [],
+  "evaluationDate": "2024-10-10",
+  "seriesStatus": "ACCEPTED"
+}
