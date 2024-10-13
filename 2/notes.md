@@ -1,0 +1,1 @@
+This take the first example, removes the evaluateAtSpecifiedTime element of the request, and makes the patient dob 19530605 and removes all vaccines. It shows the patient as immune to varicella instead of Hep B. 

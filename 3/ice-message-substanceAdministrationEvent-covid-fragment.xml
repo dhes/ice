@@ -1,0 +1,19 @@
+<substanceAdministrationEvent>
+	<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+	<id root="2.16.840.1.113883.3.795.11.6.3.1"/>
+	<!-- Generate a UUID -->
+	<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+	<substance>
+		<substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+	</substance>
+	<administrationTimeInterval low="20210120000000.000-1000" high="20210120000000.000-1000"/>
+	<doseNumber value="1"/>
+	<!-- Use the appropriate dose number if available -->
+	<performer>
+		<function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+		<id root="F9B651C7-A7A7-44F0-98D8-34A24D11CF3F"/>
+		<role classCode="PROV"/>
+	</performer>
+	<administrationLocation text="Pier across from federal building by Straub"/>
+	<note text="Administered at Pier across from federal building by Straub"/>
+</substanceAdministrationEvent>

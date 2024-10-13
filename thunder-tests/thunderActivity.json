@@ -1,0 +1,25 @@
+[
+    {
+        "_id": "a7615ae5-218f-4a72-8b39-29ab0a7be3b9",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:8081/opencds-decision-support-service/evaluate",
+        "url": "http://localhost:8081/opencds-decision-support-service/evaluate",
+        "method": "POST",
+        "sortNum": 0,
+        "created": "2024-10-12T20:45:16.669Z",
+        "modified": "2024-10-12T20:47:59.176Z",
+        "headers": [
+            {
+                "name": "Content-Type",
+                "value": "application/soap+xml; charset=utf-8"
+            }
+        ],
+        "body": {
+            "type": "binary",
+            "raw": "",
+            "form": [],
+            "binary": "../2/ice-request-with-data-2.xml"
+        }
+    }
+]
