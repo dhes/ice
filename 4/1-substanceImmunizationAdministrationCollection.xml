@@ -1,0 +1,304 @@
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="29faefea-39b0-4f42-9432-80ae2e3e6e3a"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20210120.000-1000" high="20210120.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="dd81cb06-87f6-4264-85e0-d3ef95ec231f"/>
+  </performer>
+  <note text="Administered at Pier across from federal building by Straub"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="75a682f6-26f1-414c-a52e-637608cdf5b5"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20210211.000-1000" high="20210211.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="2554675e-d021-4bb6-b64c-15af37cb0018"/>
+  </performer>
+  <note text="Administered at Pier across from federal building by Straub"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="160e6926-2210-44a8-8ef9-8f04e0dff68a"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20211020.000-1000" high="20211020.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="1fa776b8-913e-4de7-a17a-dfbf8457b620"/>
+  </performer>
+  <note text="Administered by Walgreens Beretania"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="65defb44-d7bd-4644-89d9-15d99dddd8de"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20220722.000-1000" high="20220722.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="73a53ecb-45d9-4715-8d24-006eff70408a"/>
+  </performer>
+  <note text="Administered by Walgreens Beretania"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="b5fdca4d-c5ac-4224-b979-36a475c7049e"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20210817.000-1000" high="20210817.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="ac78d191-9275-4151-8b67-0affd391c92b"/>
+  </performer>
+  <note text="Administered at Walgreens Beretania"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="451bb725-06f6-42c6-b986-77b17adaca6f"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20220914.000-1000" high="20220914.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="f68c9df5-21f2-40c5-b388-c73174f212a9"/>
+  </performer>
+  <note text="Administered at Pier across from federal building by Straub"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="b6d65ba7-beb6-44df-aa57-8ae1aaea3b75"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20210818.000-1000" high="20210818.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="92481ad1-d2a2-47e7-914d-158c6d8a7d77"/>
+  </performer>
+  <note text="Administered at Pier across from federal building by Straub"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="d991d95b-6da4-4c4a-b217-5f5325dfe795"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20120305.000-1000" high="20120305.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="339b44de-94f0-400f-8cd4-a3aef90b6241"/>
+  </performer>
+  <note text="Administered at Pier across from federal building by Straub"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="f4b23e00-7264-48ec-8800-d81b9a68f588"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20180606.000-1000" high="20180606.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="8213fa48-cc02-457f-a807-ef46efaa3ccf"/>
+  </performer>
+  <note text="Administered at Pier across from federal building by Straub"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="5a0afe65-c4ff-46d2-a11b-2d5d3ae44f87"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20110415.000-1000" high="20110415.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="4cb99c37-3e7e-40ac-970e-2c36b135ae5e"/>
+  </performer>
+  <note text="I didn't record who administered. It may have been Walgreens Kaneohe. "/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="7e2ecf56-1135-4de4-aa88-8a98f00815d0"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20180426.000-1000" high="20180426.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="ff286647-57ea-402b-9810-4dc6205419a4"/>
+  </performer>
+  <note text="Administered at Pier across from federal building by Straub"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="eab3d823-c339-4660-abcd-31fe710c0cd6"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20190515.000-1000" high="20190515.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="15ee34ee-2ed3-44ad-8ef2-058a43e42c3d"/>
+  </performer>
+  <note text="Administered at Pier across from federal building by Straub"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="0c19eb18-1810-41a9-a86c-f01d08b3c7b7"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20110415.000-1000" high="20110415.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="bd412cd4-06d3-4482-828b-0531931dff8f"/>
+  </performer>
+  <note text="Administered at Pier across from federal building by Straub"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="66f988da-04cf-4b44-9f73-c3c8734a9736"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20220706.000-1000" high="20220706.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="9e05431a-e80d-4b09-b270-69991a96c0a7"/>
+  </performer>
+  <note text="Administered at Pier across from federal building by Straub"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="5386da82-04ba-414b-9705-94dd3284259d"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20230905.000-1000" high="20230905.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="7c955a7f-5f65-46b3-9cfb-5b857f48874f"/>
+  </performer>
+  <note text="Administered at Pier across from federal building by Straub"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="63945096-6741-4f4e-b104-ca463c490a4c"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20230918.000-1000" high="20230918.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="138a21f1-bda5-4808-a432-46491767ab05"/>
+  </performer>
+  <note text="Administered at Pier across from federal building by Straub"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="33395d67-0c85-4417-b5d9-586682f33858"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20231113.000-1000" high="20231113.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="6795c3ba-ce33-4def-bcec-20ab17a2fc40"/>
+  </performer>
+  <note text="Lot# 93PD7 Left arm Injection, intramuscular"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="5e274d84-97c5-4b66-844e-25a08e56e487"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="20240818.000-1000" high="20240818.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="bddc53ed-1511-4518-8326-f10a403187b3"/>
+  </performer>
+  <note text="Administered at Pier across from federal building by Straub"/>
+</substanceAdministrationEvent>
+<substanceAdministrationEvent>
+  <templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+  <id root="ab837c35-8384-4159-945f-d82400ec5899"/>
+  <substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+  <substance>
+    <substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+  </substance>
+  <administrationTimeInterval low="202409121030001000.000-1000" high="202409121030001000.000-1000"/>
+  <doseNumber value="1"/>
+  <performer>
+    <role>PROV</role>
+    <function code="AP" codeSystem="2.16.840.1.113883.12.443" displayName="Administering Provider"/>
+    <id root="1b4b9644-dddf-4f9a-aeae-1f533219993c"/>
+  </performer>
+  <note text="Administered at Pier across from federal building by Straub"/>
+</substanceAdministrationEvent>

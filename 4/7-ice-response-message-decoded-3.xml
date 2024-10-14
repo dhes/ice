@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns5:cdsOutput xmlns:ns2="org.opencds.vmr.v1_0.schema.cdsinput"
+	xmlns:ns3="org.opencds.vmr.v1_0.schema.vmr"
+	xmlns:ns4="org.opencds.vmr.v1_0.schema.cdsinput.specification"
+	xmlns:ns5="org.opencds.vmr.v1_0.schema.cdsoutput">
+	<vmrOutput>
+		<templateId root="2.16.840.1.113883.3.795.11.1.1"/>
+		<patient>
+			<templateId root="2.16.840.1.113883.3.795.11.2.1.1"/>
+			<id root="2.16.840.1.113883.3.795.12.100.11" extension="92"/>
+			<demographics>
+				<birthTime value="19530605000000.000+0000"/>
+				<gender code="M" codeSystem="2.16.840.1.113883.5.1" displayName="Male" originalText="M"/>
+			</demographics>
+			<clinicalStatements>
+				<observationResults>
+					<observationResult>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="44B16205-7957-48E1-8759-D056244C0697"/>
+						<observationFocus code="052.9" codeSystem="2.16.840.1.113883.6.103" displayName="Varicella" originalText="052.9"/>
+						<observationEventTime low="19900301000000.000+0000" high="19900301000000.000+0000"/>
+						<observationValue>
+							<concept code="DISEASE_DOCUMENTED" codeSystem="2.16.840.1.113883.3.795.12.100.8" displayName="Disease Documented" originalText="DISEASE_DOCUMENTED"/>
+						</observationValue>
+						<interpretation code="IS_IMMUNE" codeSystem="2.16.840.1.113883.3.795.12.100.9" displayName="Is Immune" originalText="IS_IMMUNE"/>
+					</observationResult>
+				</observationResults>
+				<substanceAdministrationEvents>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="31"/>
+							<substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+						</substance>
+						<doseNumber value="1"/>
+						<administrationTimeInterval low="20210120100000.000+0000" high="20210120100000.000+0000"/>
+					</substanceAdministrationEvent>
+				</substanceAdministrationEvents>
+				<substanceAdministrationProposals>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="35815e66-74be-4830-b86b-93f922d0d8cf"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="800" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Influenza Vaccine Group"/>
+						</substance>
+						<proposedAdministrationTimeInterval low="20240701000000.000+0000"/>
+						<validAdministrationTimeInterval low="20240701000000.000+0000"/>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="6e67f2cf-6fd3-46fb-b703-a8cef3b4cf2b"/>
+								<observationFocus code="800" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Influenza Vaccine Group"/>
+								<observationValue>
+									<concept code="RECOMMENDED" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Recommended"/>
+								</observationValue>
+								<interpretation code="DUE_NOW" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Due now."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="d5ed8990-1f65-4d76-9386-6699c795401a"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="750" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Pneumococcal Vaccine Group"/>
+						</substance>
+						<proposedAdministrationTimeInterval low="20180605000000.000+0000"/>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="fc98840a-66f0-4eec-a0ec-dfa603c65c3e"/>
+								<observationFocus code="750" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Pneumococcal Vaccine Group"/>
+								<observationValue>
+									<concept code="RECOMMENDED" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Recommended"/>
+								</observationValue>
+								<interpretation code="DUE_NOW" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Due now."/>
+								<interpretation code="ADMINISTER_PCV15_OR_PCV20" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Administer either the PCV15 or PCV20 vaccine."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="42140a0d-ef2f-4bcd-b6bd-9f64bfa07731"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="820" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Rotavirus Vaccine Group"/>
+						</substance>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="8b4ab807-a5dc-4e19-90d5-a29b2d25973d"/>
+								<observationFocus code="820" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Rotavirus Vaccine Group"/>
+								<observationValue>
+									<concept code="NOT_RECOMMENDED" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Not Recommended"/>
+								</observationValue>
+								<interpretation code="TOO_OLD_TO_INITIATE" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Vaccine not recommended at this age; too old to initiate."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="1a716d91-038d-4cca-b576-118afb482196"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="860" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Orthopoxvirus Vaccine Group"/>
+						</substance>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="be1afc5e-8305-415b-a8b0-076d3ffd8946"/>
+								<observationFocus code="860" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Orthopoxvirus Vaccine Group"/>
+								<observationValue>
+									<concept code="CONDITIONAL" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Conditionally Recommended"/>
+								</observationValue>
+								<interpretation code="HIGH_RISK" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Recommended for high-risk groups."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="5393cc37-4783-439e-b513-b65274aee600"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="600" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Varicella Vaccine Group"/>
+						</substance>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="24491225-72c1-405b-8456-d82d6931e8e8"/>
+								<observationFocus code="600" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Varicella Vaccine Group"/>
+								<observationValue>
+									<concept code="NOT_RECOMMENDED" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Not Recommended"/>
+								</observationValue>
+								<interpretation code="DISEASE_DOCUMENTED" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Disease Documented."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="2fcbd161-ad3d-4269-8f48-002819da560c"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="830" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Meningococcal Vaccine Group"/>
+						</substance>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="4e0db187-c9c3-473f-8458-c288232d6267"/>
+								<observationFocus code="830" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Meningococcal Vaccine Group"/>
+								<observationValue>
+									<concept code="CONDITIONAL" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Conditionally Recommended"/>
+								</observationValue>
+								<interpretation code="HIGH_RISK" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Recommended for high-risk groups."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="6ef03095-f91a-41b6-a3a4-a0c3232b3d7f"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="500" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="MMR Vaccine Group"/>
+						</substance>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="c394920d-22be-42f7-82ae-8b1fcf570fc1"/>
+								<observationFocus code="500" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="MMR Vaccine Group"/>
+								<observationValue>
+									<concept code="CONDITIONAL" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Conditionally Recommended"/>
+								</observationValue>
+								<interpretation code="HIGH_RISK" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Recommended for high-risk groups."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="bfde7d35-299c-40ed-a3a0-92d505c87d07"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="835" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Meningococcal B Vaccine Group"/>
+						</substance>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="d9266173-da5f-42ac-841b-730cb2b77319"/>
+								<observationFocus code="835" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Meningococcal B Vaccine Group"/>
+								<observationValue>
+									<concept code="CONDITIONAL" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Conditionally Recommended"/>
+								</observationValue>
+								<interpretation code="HIGH_RISK" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Recommended for high-risk groups."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="7b50b98b-f30f-4445-a880-ab3214a39c97"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="115" codeSystem="2.16.840.1.113883.12.292" codeSystemName="Vaccines (CVX)" displayName="Tdap"/>
+						</substance>
+						<proposedAdministrationTimeInterval low="19600605000000.000+0000" high="19600605000000.000+0000"/>
+						<validAdministrationTimeInterval low="19600605000000.000+0000"/>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="dacc7c3c-7ea0-473d-b2aa-2282f4c32767"/>
+								<observationFocus code="200" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="DTP Vaccine Group"/>
+								<observationValue>
+									<concept code="RECOMMENDED" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Recommended"/>
+								</observationValue>
+								<interpretation code="DUE_NOW" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Due now."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="2b159a62-cf79-44a9-8b08-a56949c328a3"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="187" codeSystem="2.16.840.1.113883.12.292" codeSystemName="Vaccines (CVX)" displayName="Zoster recombinant"/>
+						</substance>
+						<proposedAdministrationTimeInterval low="20030605000000.000+0000"/>
+						<validAdministrationTimeInterval low="20030605000000.000+0000"/>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="bf121fc0-f7d6-4d0d-b619-9480c4f3982f"/>
+								<observationFocus code="620" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Zoster Vaccine Group"/>
+								<observationValue>
+									<concept code="RECOMMENDED" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Recommended"/>
+								</observationValue>
+								<interpretation code="DUE_NOW" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Due now."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="85497572-b559-4620-9add-ae3137306802"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+						</substance>
+						<proposedAdministrationTimeInterval low="20230912000000.000+0000"/>
+						<validAdministrationTimeInterval low="20230912000000.000+0000"/>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="b13170e6-8462-4de9-a956-bcbb3c61147f"/>
+								<observationFocus code="850" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="COVID-19 Vaccine Group"/>
+								<observationValue>
+									<concept code="RECOMMENDED" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Recommended"/>
+								</observationValue>
+								<interpretation code="DUE_NOW" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Due now."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="f162bb9e-8ee7-4b8b-9911-0dfd00654c2f"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="300" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Hib Vaccine Group"/>
+						</substance>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="fcd4c589-9aee-4a88-9898-5b4772882d85"/>
+								<observationFocus code="300" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Hib Vaccine Group"/>
+								<observationValue>
+									<concept code="CONDITIONAL" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Conditionally Recommended"/>
+								</observationValue>
+								<interpretation code="HIGH_RISK" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Recommended for high-risk groups."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="e891d011-14f2-498d-af13-c534eb89e108"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="840" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="HPV Vaccine Group"/>
+						</substance>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="ad670b50-81c2-477e-907c-d931fcdfd28d"/>
+								<observationFocus code="840" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="HPV Vaccine Group"/>
+								<observationValue>
+									<concept code="NOT_RECOMMENDED" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Not Recommended"/>
+								</observationValue>
+								<interpretation code="TOO_OLD" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Vaccine not recommended at this age."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="aa59eff2-f217-4af0-8d90-c7f6ea7f4031"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="100" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Hep B Vaccine Group"/>
+						</substance>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="33ceb232-4fe8-4973-ad0b-42be8264819c"/>
+								<observationFocus code="100" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Hep B Vaccine Group"/>
+								<observationValue>
+									<concept code="CONDITIONAL" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Conditionally Recommended"/>
+								</observationValue>
+								<interpretation code="HIGH_RISK" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Recommended for high-risk groups."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="2b39e38a-52f5-4b8d-a7e7-222a9ced032e"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="810" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Hep A Vaccine Group"/>
+						</substance>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="43a5d40a-d429-4b67-892b-88d42f0e063f"/>
+								<observationFocus code="810" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Hep A Vaccine Group"/>
+								<observationValue>
+									<concept code="CONDITIONAL" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Conditionally Recommended"/>
+								</observationValue>
+								<interpretation code="HIGH_RISK" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Recommended for high-risk groups."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+					<substanceAdministrationProposal>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="a243b719-6862-46bd-a962-8cccbd3aec0e"/>
+						<dataSourceType code="ICE_2.43.1" codeSystem="2.16.840.1.113883.3.795.5.4.12.1.2" codeSystemName="org.cdsframework source"/>
+						<substanceAdministrationGeneralPurpose code="384810002" codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED CT" displayName="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<substanceCode code="400" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Polio Vaccine Group"/>
+						</substance>
+						<relatedClinicalStatement>
+							<targetRelationshipToSource code="RSON" codeSystem="2.16.840.1.113883.5.1002" displayName="has pertaining reason"/>
+							<observationResult>
+								<id root="f4c0a608-0eba-406f-a738-b1b90dc25d11"/>
+								<observationFocus code="400" codeSystem="2.16.840.1.113883.3.795.12.100.1" codeSystemName="Vaccine Groups" displayName="Polio Vaccine Group"/>
+								<observationValue>
+									<concept code="CONDITIONAL" codeSystem="2.16.840.1.113883.3.795.12.100.5" codeSystemName="ICE Recommendation Status" displayName="Conditionally Recommended"/>
+								</observationValue>
+								<interpretation code="HIGH_RISK" codeSystem="2.16.840.1.113883.3.795.12.100.6" codeSystemName="ICE Recommendation Reasons" displayName="Recommended for high-risk groups."/>
+							</observationResult>
+						</relatedClinicalStatement>
+					</substanceAdministrationProposal>
+				</substanceAdministrationProposals>
+			</clinicalStatements>
+		</patient>
+	</vmrOutput>
+</ns5:cdsOutput>

@@ -21,3 +21,12 @@ where `z` is an instance (test case) number. Test cases are in numbered folders 
 ```
 base64 -i /Users/danheslinga/ice/3/ice-message-populated-3.xml -o /Users/danheslinga/ice/3/ice-message-encoded-3.txt
 ```
+
+To decode the base64 returned message:
+```
+echo "your_base64_string" | base64 -d -o path/to/output/file.xml
+```
+like
+```
+echo "PD94bWwgdmVy...{truncated}" | base64 -d -o /Users/danheslinga/ice/3/ice-response-message-decoded-3.xml
+```
