@@ -1,0 +1,87 @@
+{
+  "code": "800",
+  "display": "Influenza",
+  "members": [{
+			"cvx": "15",
+			"display": "influenza, split"
+		},
+		{ "cvx": "16", "display": "influenza, whole" },
+    { "cvx": "88", "display": "influenza, unspecified formulation" },
+    { "cvx": "111", "display": "influenza, live, intranasal" },
+    { "cvx": "135", "display": "influenza, high dose, seasonal" },
+    {
+      "cvx": "140",
+      "display": "influenza, seasonal, injectable, preservative free"
+    },
+    { "cvx": "141", "display": "influenza, seasonal, injectable" },
+    {
+      "cvx": "144",
+      "display": "influenza, seasonal, intradermal, preservative free"
+    },
+    { "cvx": "149", "display": "influenza, live, intranasal, quadrivalent" },
+    {
+      "cvx": "150",
+      "display": "influenza, injectable, quadrivalent, preservative free"
+    },
+    { "cvx": "151", "display": "influenza nasal, unspecified formulation" },
+    {
+      "cvx": "153",
+      "display": "influenza, injectable, MDCK, preservative free"
+    },
+    {
+      "cvx": "155",
+      "display": "influenza, recombinant, injectable, preservative free"
+    },
+    { "cvx": "158", "display": "Influenza-IIV4, IM (>3yrs)" },
+    {
+      "cvx": "161",
+      "display": "Influenza, injectable, quadrivalent, preservative free, pediatric"
+    },
+    {
+      "cvx": "166",
+      "display": "Influenza, intradermal, quadrivalent, preservative free, injectable"
+    },
+    {
+      "cvx": "168",
+      "display": "Seasonal trivalent influenza vaccine, adjuvanted, preservative free"
+    },
+    {
+      "cvx": "171",
+      "display": "Influenza, injectable, Madin Darby Canine Kidney, preservative free, quadrivalent"
+    },
+    {
+      "cvx": "185",
+      "display": "Influenza, recombinant, quadrivalent, injectable, preservative free"
+    },
+    { "cvx": "186", "display": "Influenza, injectable, MDCK, quadrivalent" },
+    {
+      "cvx": "194",
+      "display": "Influenza, Southern Hemisphere, unspecified formulation"
+    },
+    { "cvx": "197", "display": "Influenza, high dose, quadrivalent" },
+    {
+      "cvx": "200",
+      "display": "Influenza, Southern Hemisphere, pediatric, preservative free"
+    },
+    {
+      "cvx": "201",
+      "display": "Influenza, Southern Hemisphere, preservative free"
+    },
+    {
+      "cvx": "202",
+      "display": "Influenza, Southern Hemisphere, quadrivalent, with preservative"
+    },
+    {
+      "cvx": "205",
+      "display": "Influenza, seasonal vaccine, quadrivalent, adjuvanted"
+    },
+    {
+      "cvx": "231",
+      "display": "Influenza, Southern Hemisphere, high-dose, quadrivalent"
+    }, 
+		{
+			"cvx": "320",
+			"display": "Influenza, MDCK, trivalent, preservative"
+		}
+  ]
+}

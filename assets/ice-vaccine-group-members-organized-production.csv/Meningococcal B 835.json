@@ -1,0 +1,9 @@
+{
+  "code": "835",
+  "display": "Meningococcal B",
+  "members": [
+    { "cvx": "162", "display": "Meningococcal B FHbp, recombinant (Trumenba)" },
+    { "cvx": "163", "display": "Meningococcal B 4C, OMV (Bexsero)" },
+    { "cvx": "316", "display": "Meningococcal MenABCWY (Penbraya)" }
+  ]
+}

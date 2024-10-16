@@ -1,0 +1,14 @@
+{
+  "code": "500",
+  "display": "MMR",
+  "members": [
+    { "cvx": "03", "display": "MMR" },
+    { "cvx": "05", "display": "Measles" },
+    { "cvx": "06", "display": "Rubella" },
+    { "cvx": "07", "display": "Mumps" },
+    { "cvx": "04", "display": "Measles/Rubella" },
+    { "cvx": "38", "display": "Mumps/Rubella" },
+    { "cvx": "94", "display": "MMR-Varicella" }
+  ]
+}
+

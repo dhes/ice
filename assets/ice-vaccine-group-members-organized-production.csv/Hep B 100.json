@@ -1,0 +1,23 @@
+{
+  "Group": "100",
+  "display": "Hep B",
+  "members": [
+    { "cvx": "08", "display": "HepB peds <20yrs" },
+    { "cvx": "42", "display": "HepB high risk infant" },
+    { "cvx": "45", "display": "HepB NOS" },
+    { "cvx": "43", "display": "HepB adult =>20yrs" },
+    { "cvx": "44", "display": "HepB-dialysis" },
+    { "cvx": "51", "display": "Hib/HepB (Comvax)" },
+    { "cvx": "102", "display": "DTP-Hib-HepB" },
+    { "cvx": "110", "display": "DTaP-HepB-IPV (Pediarix)" },
+    { "cvx": "104", "display": "HepA-HepB (Twinrix)" },
+    { "cvx": "132", "display": "DTaP-IPV-Hib-HepB, historical" },
+    {
+      "cvx": "146",
+      "display": "DTaP, IPV, Hib, Hep B"
+    },
+    { "cvx": "189", "display": "Hep B, adjuvanted" },
+    { "cvx": "198", "display": "DTP-Hep B-Hib Pentavalent Non-US" },
+    { "cvx": "220", "display": "HepB recombinant, 3-antigen, Al(OH)3" }
+  ]
+}

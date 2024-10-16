@@ -1,0 +1,15 @@
+{
+  "code": "860",
+  "display": "Orthopoxvirus",
+  "members": [
+    { "cvx": "75", "display": "vaccinia (smallpox) vaccine (ACAM2000)" },
+    {
+      "cvx": "105",
+      "display": "vaccinia (smallpox) vaccine, diluted (Inactive; not preferred)"
+    },
+    {
+      "cvx": "206",
+      "display": "Vaccinia, smallpox monkeypox vaccine live, PF (JYNNEOS)"
+    }
+  ]
+}

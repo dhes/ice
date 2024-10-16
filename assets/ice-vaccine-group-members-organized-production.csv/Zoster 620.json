@@ -1,0 +1,9 @@
+{
+  "code": "620",
+  "display": "Zoster",
+  "members": [
+    { "cvx": "121", "display": "Zoster vaccine, live" },
+    { "cvx": "187", "display": "Zoster vaccine, recombinant" },
+    { "cvx": "188", "display": "Zoster vaccine, unspecified formulation (NOS)" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "code": "820",
+  "display": "Rotavirus",
+  "members": [
+    { "cvx": "116", "display": "Rotavirus RV5 (RotaTeq, 3 dose)" },
+    { "cvx": "119", "display": "Rotavirus RV1 (Rotarix, 2 dose)" },
+    { "cvx": "122", "display": "Rotavirus NOS" },
+    { "cvx": "74", "display": "Rotavirus" }
+  ]
+}

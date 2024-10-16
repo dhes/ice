@@ -1,0 +1,18 @@
+{
+  "code": "400",
+  "display": "Polio",
+  "members": [
+    { "cvx": "02", "display": "OPV" },
+    { "cvx": "10", "display": "IPV" },
+    { "cvx": "89", "display": "polio, unspecified formulation" },
+    { "cvx": "110", "display": "DTaP/HepB/IPV" },
+    { "cvx": "120", "display": "DTaP/IPV/Hib" },
+    { "cvx": "130", "display": "DTaP/IPV" },
+    { "cvx": "132", "display": "DTaP-IPV-Hib-HepB, historical" },
+    { "cvx": "146", "display": "DTaP-IPV-Hib-HepB" },
+    { "cvx": "170", "display": "DTaP-IPV-Hib" },
+    { "cvx": "178", "display": "OPV bivalent" },
+    { "cvx": "179", "display": "OPV ,monovalent, unspecified (NOS)" },
+    { "cvx": "182", "display": "OPV, unspecified (NOS)" }
+  ]
+}

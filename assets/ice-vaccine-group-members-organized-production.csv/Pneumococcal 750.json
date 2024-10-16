@@ -1,0 +1,19 @@
+{
+  "code": "750",
+  "display": "Pneumococcal",
+  "members": [
+    { "cvx": "100", "display": "Pneumococcal Conjugate 7 valent (PCV 7)" },
+    { "cvx": "133", "display": "Pneumococcal Conjugate 13 (PCV 13)" },
+    { "cvx": "109", "display": "Pneumococcal NOS" },
+    { "cvx": "152", "display": "Pneumoccocal Conjugate NOS" },
+    { "cvx": "33", "display": "Pneumococcal Polysaccharide 23 valent" },
+    {
+      "cvx": "215",
+      "display": "Pneumococcal conjugate PCV15, polysaccharide CRM197 conjugate, adjuvant, PF"
+    },
+    {
+      "cvx": "216",
+      "display": "Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF"
+    }
+  ]
+}

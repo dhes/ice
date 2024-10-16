@@ -1,0 +1,22 @@
+{
+  "group": "300",
+  "display": "Hib",
+  "members": [
+    { "cvx": "17", "display": "Hib NOS" },
+    { "cvx": "46", "display": "Hib-PRP-D (ProHIBIT)" },
+    { "cvx": "47", "display": "Hib-HbOC (HibTITER)" },
+    { "cvx": "48", "display": "Hib-PRP-T (ActHIB, Hiberix)" },
+    { "cvx": "49", "display": "Hib-PRP-OMP (PedvaxHIB)" },
+    { "cvx": "50", "display": "DTaP-Hib (TriHiBit)" },
+    { "cvx": "51", "display": "Hep B-Hib (PRP-OMP (ComVAX)" },
+    { "cvx": "120", "display": "DTaP-Hib (PRP-T)-IPV" },
+    { "cvx": "22", "display": "DTP-Hib  (Tetramune; OmniHib-DTP)" },
+    { "cvx": "102", "display": "DTP-Hib-HepB" },
+    { "cvx": "132", "display": "DTaP-IPV-Hib-HepB, historical" },
+    { "cvx": "146", "display": "DTaP-IPV-Hib-HepB" },
+    { "cvx": "148", "display": "Mening C&Y-Hib PRP-T (Menhibrix)" },
+    { "cvx": "170", "display": "DTaP-IPV-Hib" },
+    { "cvx": "198", "display": "DTP-Hep B-Hib Pentavalent Non-US" }
+  ]
+}
+x	

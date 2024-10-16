@@ -1,0 +1,324 @@
+[
+  { "code": "01", "display": "DTP" },
+  { "code": "02", "display": "OPV" },
+  { "code": "03", "display": "MMR" },
+  { "code": "04", "display": "Measles/Rubella" },
+  { "code": "05", "display": "Measles" },
+  { "code": "06", "display": "Rubella" },
+  { "code": "07", "display": "Mumps" },
+  { "code": "08", "display": "Hep B Peds < 20 years" },
+  { "code": "09", "display": "Td adult (absorbed)" },
+  { "code": "10", "display": "IPV" },
+  { "code": "15", "display": "Influenza, Split" },
+  { "code": "16", "display": "Influenza, Whole" },
+  { "code": "17", "display": "Hib NOS" },
+  { "code": "20", "display": "DTaP" },
+  { "code": "21", "display": "Varicella" },
+  { "code": "22", "display": "DTP-Hib  (Tetramune; OmniHib-DTP)" },
+  { "code": "28", "display": "DT (pediatric)" },
+  { "code": "31", "display": "HepA Pediatric NOS" },
+  { "code": "32", "display": "Meningococcal MPSV4 (Menomune)" },
+  { "code": "33", "display": "Pneumococcal Polysaccharide 23 valent" },
+  { "code": "38", "display": "Mumps/Rubella" },
+  { "code": "42", "display": "Hep B High Risk Infant" },
+  { "code": "43", "display": "Hep B Adult >= 20 years" },
+  { "code": "44", "display": "Hep B Dialysis" },
+  { "code": "45", "display": "Hep B NOS" },
+  { "code": "46", "display": "Hib-PRP-D (ProHIBIT)" },
+  { "code": "47", "display": "Hib-HbOC (HibTITER)" },
+  { "code": "48", "display": "Hib-PRP-T (ActHIB, Hiberix)" },
+  { "code": "49", "display": "Hib-PRP-OMP (PedvaxHIB)" },
+  { "code": "50", "display": "DTaP-Hib (TriHiBit)" },
+  { "code": "51", "display": "Hep B-Hib (PRP-OMP (ComVAX))" },
+  { "code": "52", "display": "Hep A Adult" },
+  { "code": "62", "display": "HPV Quadrivalent (Gardasil)" },
+  { "code": "74", "display": "Rotavirus" },
+  { "code": "75", "display": "vaccinia (smallpox) vaccine (ACAM2000)" },
+  { "code": "83", "display": "HepA ped/adol 2 dose" },
+  { "code": "84", "display": "HepA pediatric/adolescent (3 dose)" },
+  { "code": "85", "display": "HepA NOS" },
+  { "code": "88", "display": "Influenza, unspecified formulation" },
+  { "code": "89", "display": "Polio, unspecified formulation" },
+  { "code": "94", "display": "MMR-Varicella" },
+  { "code": "100", "display": "Pneumococcal Conjugate 7 valent (PCV 7)" },
+  { "code": "102", "display": "DTP-Hib-HepB" },
+  { "code": "104", "display": "HepA-HepB (Twinrix)" },
+  {
+    "code": "105",
+    "display": "vaccinia (smallpox) vaccine, diluted (Inactive; not preferred)"
+  },
+  { "code": "106", "display": "DTaP, 5 pertussis antigens" },
+  { "code": "107", "display": "DTaP, unspecified formulation" },
+  { "code": "108", "display": "Meningococcal, unspecified formulation" },
+  { "code": "109", "display": "Pneumococcal NOS" },
+  { "code": "110", "display": "DTaP/HepB/IPV" },
+  { "code": "111", "display": "influenza, live, intranasal" },
+  { "code": "113", "display": "Td (adult) preservative free" },
+  { "code": "114", "display": "Meningococcal MCV4P (Menactra)" },
+  { "code": "115", "display": "Tdap" },
+  { "code": "116", "display": "Rotavirus RV5 (RotaTeq, 3-dose)" },
+  { "code": "118", "display": "HPV Bivalent (Cervarix)" },
+  { "code": "119", "display": "Rotavirus RV1 (Rotarix, 2-dose)" },
+  { "code": "120", "display": "DTaP-Hib (PRP-T)-IPV" },
+  { "code": "121", "display": "Zoster vaccine, live" },
+  { "code": "122", "display": "Rotavirus NOS" },
+  { "code": "125", "display": "Novel Influenza-H1N1-09, nasal" },
+  { "code": "126", "display": "Novel influenza-H1N1-09, preservative-free" },
+  { "code": "127", "display": "Novel influenza-H1N1-09" },
+  { "code": "128", "display": "Novel Influenza-H1N1-09, all formulations" },
+  { "code": "130", "display": "DTaP/IPV" },
+  { "code": "132", "display": "DTaP-IPV-Hib-HepB, Historical" },
+  { "code": "133", "display": "Pneumococcal Conjugate 13 (PCV 13)" },
+  { "code": "135", "display": "Influenza, high dose, seasonal" },
+  { "code": "136", "display": "Meningococcal MCV4O (Menveo)" },
+  { "code": "137", "display": "HPV NOS" },
+  { "code": "138", "display": "Td (adult, not adsorbed)" },
+  { "code": "139", "display": "Td, adult NOS" },
+  {
+    "code": "140",
+    "display": "Influenza, seasonal, injectable, preservative free"
+  },
+  { "code": "141", "display": "Influenza, seasonal, injectable" },
+  {
+    "code": "144",
+    "display": "Influenza, seasonal, intradermal, preservative free"
+  },
+  { "code": "146", "display": "DTaP-IPV-Hib-HepB" },
+  { "code": "147", "display": "Meningococcal MCV4, unspecified formulation" },
+  {
+    "code": "148",
+    "display": "Mening C&Y-Hib PRP-T (Menhibrix)   (Only Hib component evaluated)"
+  },
+  { "code": "149", "display": "Influenza, live, intranasal, quadrivalent" },
+  {
+    "code": "150",
+    "display": "Influenza, injectable, quadrivalent, preservative free"
+  },
+  { "code": "151", "display": "Influenza nasal, unspecified formulation" },
+  {
+    "code": "153",
+    "display": "Influenza, injectable, MDCK, preservative free"
+  },
+  {
+    "code": "155",
+    "display": "Influenza, injectable, MDCK, preservative free"
+  },
+  { "code": "158", "display": "Influenza-IIV4, IM (>3yrs)" },
+  {
+    "code": "161",
+    "display": "Influenza, injectable, quadrivalent, preservative free, pediatric"
+  },
+  { "code": "162", "display": "Meningococcal B FHbp, recombinant (Trumenba)" },
+  { "code": "163", "display": "Meningococcal B 4C, OMV (Bexsero)" },
+  { "code": "164", "display": "Meningococcal B, NOS" },
+  { "code": "165", "display": "HPV9" },
+  {
+    "code": "166",
+    "display": "Influenza, intradermal, quadrivalent, preservative free, injectable"
+  },
+  {
+    "code": "168",
+    "display": "Seasonal trivalent influenza vaccine, adjuvanted, preservative free"
+  },
+  { "code": "170", "display": "DTaP-IPV-Hib" },
+  {
+    "code": "171",
+    "display": "Influenza, injectable, Madin Darby Canine Kidney, preservative free, quadrivalent"
+  },
+  { "code": "178", "display": "OPV bivalent" },
+  { "code": "179", "display": "OPV ,monovalent, unspecified (NOS)" },
+  { "code": "182", "display": "OPV, Unspecified (NOS)" },
+  {
+    "code": "185",
+    "display": "Influenza, recombinant, quadrivalent, injectable, preservative free"
+  },
+  { "code": "186", "display": "Influenza, injectable, MDCK, quadrivalent" },
+  { "code": "187", "display": "Zoster vaccine recombinant" },
+  { "code": "188", "display": "Zoster vaccine, unspecified formulation (NOS)" },
+  { "code": "189", "display": "Hep B, adjuvanted" },
+  {
+    "code": "194",
+    "display": "Influenza, Southern Hemisphere, unspecified formulation"
+  },
+  { "code": "197", "display": "Influenza, high dose, quadrivalent" },
+  { "code": "198", "display": "DTP-Hep B-Hib Pentavalent Non-US" },
+  {
+    "code": "200",
+    "display": "Influenza, Southern Hemisphere, pediatric, preservative free"
+  },
+  {
+    "code": "201",
+    "display": "Influenza, Southern Hemisphere, preservative free"
+  },
+  {
+    "code": "202",
+    "display": "Influenza, Southern Hemisphere, quadrivalent, with preservative"
+  },
+  { "code": "203", "display": "Meningococcal MenACWY-TT" },
+  {
+    "code": "205",
+    "display": "Influenza, seasonal vaccine, quadrivalent, adjuvanted"
+  },
+  {
+    "code": "206",
+    "display": "Vaccinia, smallpox monkeypox vaccine live, PF (JYNNEOS)"
+  },
+  {
+    "code": "207",
+    "display": "COVID-19, mRNA, LNP-S, PF 100 mcg/0.5 mL (Moderna)"
+  },
+  {
+    "code": "208",
+    "display": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose (Pfizer)"
+  },
+  {
+    "code": "210",
+    "display": "COVID-19 vaccine, vector-nr, rS-ChAdOx1, PF, 0.5 mL (AstraZeneca)"
+  },
+  {
+    "code": "211",
+    "display": "COVID-19 vaccine, Subunit, rS-nanoparticle+Matrix-M1 Adjuvant, PF, 0.5 mL"
+  },
+  {
+    "code": "212",
+    "display": "COVID-19 vaccine, vector-nr, rS-Ad26, PF, 0.5 mL (Janssen)"
+  },
+  { "code": "213", "display": "COVID-19 vaccine, UNSPECIFIED" },
+  {
+    "code": "215",
+    "display": "Pneumococcal conjugate PCV15, polysaccharide CRM197 conjugate, adjuvant, PF"
+  },
+  {
+    "code": "216",
+    "display": "Pneumococcal conjugate PCV20, polysaccharide CRM197 conjugate, adjuvant, PF"
+  },
+  {
+    "code": "217",
+    "display": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose, tris-sucrose (Pfizer)"
+  },
+  {
+    "code": "218",
+    "display": "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL dose, tris-sucrose (Pfizer)"
+  },
+  {
+    "code": "219",
+    "display": "Pfizer COVID-19 Vaccine (Preferable age range: >= 6 months to < 5 years)"
+  },
+  { "code": "220", "display": "HepB recombinant, 3-antigen, Al(OH)3" },
+  {
+    "code": "221",
+    "display": "Moderna COVID-19 Vaccine (Preferable age ranges: >= 6 years to < 12 years OR >= 18 years)"
+  },
+  { "code": "227", "display": "Moderna COVID-19 Vaccine (Inactive)" },
+  {
+    "code": "228",
+    "display": "Moderna COVID-19 Vaccine (Preferable age range: >= 6 months to < 6 years)"
+  },
+  {
+    "code": "229",
+    "display": "Moderna COVID-19 Vaccine, Bivalent Booster (Preferable Age Range: > 6 years and < 12 years (0.25mL dose); >= 12 years (0.5mL dose))"
+  },
+  {
+    "code": "231",
+    "display": "Influenza, Southern Hemisphere, high-dose, quadrivalent"
+  },
+  {
+    "code": "300",
+    "display": "Pfizer COVID-19 Vaccine, Bivalent Booster (Preferable Age Range: >= 12 years)"
+  },
+  {
+    "code": "301",
+    "display": "Pfizer COVID-19 Vaccine, Bivalent Booster (Preferable Age Range: > 5 years and <= 12 years)"
+  },
+  {
+    "code": "308",
+    "display": "COVID-19, XBB.1.5, mRNA, LNP-S, PF, tris-sucrose, 6 mos-4 yrs, Pfizer"
+  },
+  {
+    "code": "309",
+    "display": "COVID-19, XBB.1.5, mRNA, LNP-S, PF, tris-sucrose, 12+ yrs, Pfizer"
+  },
+  {
+    "code": "310",
+    "display": "COVID-19, XBB.1.5, mRNA, LNP-S, PF, tris-sucrose, 5-11 yrs, Pfizer"
+  },
+  {
+    "code": "311",
+    "display": "COVID-19, XBB.1.5, mRNA, LNP-S, PF, 6 mos-11 yrs, Moderna"
+  },
+  {
+    "code": "312",
+    "display": "COVID-19, XBB.1.5, mRNA, LNP-S, PF, 12+ yrs, Moderna"
+  },
+  {
+    "code": "313",
+    "display": "COVID-19, XBB.1.5, subunit, rS-nanoparticle, adjuvanted, PF, 12+ yrs, Novavax"
+  },
+  { "code": "316", "display": "Meningococcal MenABCWY (Penbraya)" },
+  { "code": "320", "display": "Influenza, MDCK, trivalent, preservative" },
+  { "code": "500", "display": "COVID-19 Non-US Vaccine, Product Unknown" },
+  { "code": "501", "display": "COVID-19 IV Non-US Vaccine (QAZCOVID-IN)" },
+  { "code": "502", "display": "COVID-19 IV Non-US Vaccine (COVAXIN)" },
+  { "code": "503", "display": "COVID-19 LAV Non-US Vaccine (COVIVAC)" },
+  { "code": "504", "display": "COVID-19 VVnr Non-US Vaccine (Sputnik Light)" },
+  { "code": "505", "display": "COVID-19 VVnr Non-US Vaccine (Sputnik V)" },
+  {
+    "code": "506",
+    "display": "COVID-19 VVnr Non-US Vaccine (CanSino Biological Inc./Beijing Institute of Biotechnology)"
+  },
+  {
+    "code": "507",
+    "display": "COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom Biopharm + Inst of Micro",
+    "display": " Chinese Acad of Sciences)"
+  },
+  {
+    "code": "508",
+    "display": "COVID-19 PS Non-US Vaccine (Jiangsu Province Centers for Disease Control and Prevention)"
+  },
+  { "code": "509", "display": "COVID-19 PS Non-US Vaccine (EpiVacCorona)" },
+  { "code": "510", "display": "COVID-19 IV Non-US Vaccine (BIBP, Sinopharm)" },
+  {
+    "code": "511",
+    "display": "COVID-19 IV Non-US Vaccine (CoronaVac, Sinovac)"
+  },
+  {
+    "code": "512",
+    "display": "COVID-19 VLP Non-US Vaccine (Medicago, Covifenz)"
+  },
+  {
+    "code": "513",
+    "display": "COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom, Zifivax)"
+  },
+  {
+    "code": "514",
+    "display": "COVID-19 DNA Non-US Vaccine (Zydus Cadila, ZyCoV-D)"
+  },
+  {
+    "code": "515",
+    "display": "COVID-19 PS Non-US Vaccine (Medigen, MVC-COV1901)"
+  },
+  {
+    "code": "516",
+    "display": "COVID-19 Inactivated Non-US Vaccine (Minhai Biotechnology Co, KCONVAC)"
+  },
+  {
+    "code": "517",
+    "display": "COVID-19 PS Non-US Vaccine (Biological E Limited, Corbevax)"
+  },
+  {
+    "code": "518",
+    "display": "COVID-19 Inactivated, Non-US Vaccine (VLA2001, Valneva)"
+  },
+  {
+    "code": "519",
+    "display": "COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine (Spikevax Bivalent), Moderna"
+  },
+  {
+    "code": "520",
+    "display": "COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine Product, Pfizer-BioNTech"
+  },
+  {
+    "code": "521",
+    "display": "COVID-19 SP, protein-based, adjuvanted (VidPrevtyn Beta), Sanofi-GSK"
+  }
+]

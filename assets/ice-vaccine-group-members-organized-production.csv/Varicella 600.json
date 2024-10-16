@@ -1,0 +1,8 @@
+{
+  "code": "600",
+  "display": "Varicella",
+  "members": [
+    { "cvx": "21", "display": "Varicella" },
+    { "cvx": "94", "display": "MMR-Varicella" }
+  ]
+}

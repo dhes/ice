@@ -1,0 +1,26 @@
+{
+  "group": "200",
+  "display": "DTP",
+  "members": [
+    { "cvx": "01", "display": "DTP" },
+    { "cvx": "09", "display": "Td (adult), absorbed" },
+    { "cvx": "20", "display": "DTaP" },
+    { "cvx": "22", "display": "DTP-Hib (Tetramune; OmniHib-DTP)" },
+    { "cvx": "28", "display": "DT (pediatric)" },
+    { "cvx": "50", "display": "DTaP-Hib (TriHiBit)" },
+    { "cvx": "102", "display": "DTP-Hib-Hep B" },
+    { "cvx": "106", "display": "DTaP, 5 pertussis antigens" },
+    { "cvx": "107", "display": "DTaP, unspecified formulation" },
+    { "cvx": "110", "display": "DTaP-Hep B-IPV (Pediarix)" },
+    { "cvx": "113", "display": "Td (adult) preservative free" },
+    { "cvx": "115", "display": "Tdap" },
+    { "cvx": "120", "display": "DTaP-Hib-IPV (Pentacel)" },
+    { "cvx": "130", "display": "DTaP-IPV" },
+    { "cvx": "132", "display": "DTaP-IPV-Hib-HepB, historical" },
+    { "cvx": "138", "display": "Td (adult, not adsorbed)" },
+    { "cvx": "139", "display": "Td (adult) NOS" },
+    { "cvx": "146", "display": "DTaP, IPV, Hib, Hep B" },
+    { "cvx": "170", "display": "DTaP-IPV-Hib" },
+    { "cvx": "198", "display": "DTP-Hep B-Hib Pentavalent Non-US" }
+  ]
+}

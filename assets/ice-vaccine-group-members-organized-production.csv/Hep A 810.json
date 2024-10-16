@@ -1,0 +1,12 @@
+{
+  "group": "810",
+  "display": "Hep A",
+  "members": [
+    { "cvx": "83", "display": "HepA ped/adol 2 dose" },
+    { "cvx": "84", "display": "HepA pediatric/adolescent (3 dose)" },
+    { "cvx": "31", "display": "HepA pediatric NOS" },
+    { "cvx": "52", "display": "HepA adult" },
+    { "cvx": "85", "display": "HepA NOS" },
+    { "cvx": "104", "display": "HepA-HepB (Twinrix)" }
+  ]
+}

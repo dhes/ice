@@ -1,0 +1,148 @@
+{
+  "code": "850",
+  "display": "COVID-19",
+  "members": [
+    {
+      "cvx": "207",
+      "display": "COVID-19, mRNA, LNP-S, PF 100mcg/0.5 mL (Moderna)"
+    },
+    {
+      "cvx": "208",
+      "display": "COVID-19, mRNA, LNP-S, PF 30 mcg/0.3 mL (Pfizer)"
+    },
+    {
+      "cvx": "210",
+      "display": "COVID-19 vaccine, vector-nr, rS-ChAdOx1, PF, 0.5 mL (AstraZeneca)"
+    },
+    {
+      "cvx": "211",
+      "display": "COVID-19 vaccine, Subunit, rS-nanoparticle+Matrix-M1 Adjuvant, PF, 0.5 mL (Novavax)"
+    },
+    {
+      "cvx": "212",
+      "display": "COVID-19 vaccine, vector-nr, rS-Ad26, PF, 0.5 mL (Janssen)"
+    },
+    { "cvx": "213", "display": "COVID-19 vaccine, UNSPECIFIED" },
+    {
+      "cvx": "217",
+      "display": "COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose, tris-sucrose (Pfizer)"
+    },
+    {
+      "cvx": "218",
+      "display": "COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL dose, tris-sucrose (Pfizer)"
+    },
+    {
+      "cvx": "219",
+      "display": "Pfizer COVID-19 Vaccine (Preferable age range: >= 6 months to < 5 years)"
+    },
+    {
+      "cvx": "221",
+      "display": "Moderna COVID-19 Vaccine (Preferable age ranges: >= 6 years to < 12 years OR >= 18 years)"
+    },
+    { "cvx": "227", "display": "Moderna COVID-19 Vaccine (Inactive)" },
+    {
+      "cvx": "228",
+      "display": "Moderna COVID-19 Vaccine (Preferable age range: >= 6 months to < 6 years)"
+    },
+    {
+      "cvx": "229",
+      "display": "Moderna COVID-19 Vaccine, Bivalent Booster (Preferable Age Range: > 6 years and < 12 years (0.25mL dose); >= 12 years (0.5mL dose))"
+    },
+    {
+      "cvx": "300",
+      "display": "Pfizer COVID-19 Vaccine, Bivalent Booster (Preferable Age Range: >= 12 years)"
+    },
+    {
+      "cvx": "301",
+      "display": "Pfizer COVID-19 Vaccine, Bivalent Booster (Preferable Age Range: > 5 years and <= 12 years)"
+    },
+    {
+      "cvx": "308",
+      "display": "COVID-19, XBB.1.5, mRNA, LNP-S, PF, tris-sucrose, 6 mos-4 yrs, Pfizer"
+    },
+    {
+      "cvx": "309",
+      "display": "COVID-19, XBB.1.5, mRNA, LNP-S, PF, tris-sucrose, 12+ yrs, Pfizer"
+    },
+    {
+      "cvx": "310",
+      "display": "COVID-19, XBB.1.5, mRNA, LNP-S, PF, tris-sucrose, 5-11 yrs, Pfizer"
+    },
+    {
+      "cvx": "311",
+      "display": "COVID-19, XBB.1.5, mRNA, LNP-S, PF, 6 mos-11 yrs, Moderna"
+    },
+    {
+      "cvx": "312",
+      "display": "COVID-19, XBB.1.5, mRNA, LNP-S, PF, 12+ yrs, Moderna"
+    },
+    {
+      "cvx": "313",
+      "display": "COVID-19, XBB.1.5, subunit, rS-nanoparticle, adjuvanted, PF, 12+ yrs, Novavax"
+    },
+    { "cvx": "500", "display": "COVID-19 Non-US Vaccine, Product Unknown" },
+    { "cvx": "501", "display": "COVID-19 IV Non-US Vaccine (QAZCOVID-IN)" },
+    { "cvx": "502", "display": "COVID-19 IV Non-US Vaccine (COVAXIN)" },
+    { "cvx": "503", "display": "COVID-19 LAV Non-US Vaccine (COVIVAC)" },
+    { "cvx": "504", "display": "COVID-19 VVnr Non-US Vaccine (Sputnik Light)" },
+    { "cvx": "505", "display": "COVID-19 VVnr Non-US Vaccine (Sputnik V)" },
+    {
+      "cvx": "506",
+      "display": "COVID-19 VVnr Non-US Vaccine (CanSino Biological Inc./Beijing Institute of Biotechnology)"
+    },
+    {
+      "cvx": "507",
+      "display": "COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom Biopharm + Inst of Micro, Chinese Acad of Sciences)"
+    },
+    {
+      "cvx": "508",
+      "display": "COVID-19 PS Non-US Vaccine (Jiangsu Province Centers for Disease Control and Prevention)"
+    },
+    { "cvx": "509", "display": "COVID-19 PS Non-US Vaccine (EpiVacCorona)" },
+    { "cvx": "510", "display": "COVID-19 IV Non-US Vaccine (BIBP, Sinopharm)" },
+    {
+      "cvx": "511",
+      "display": "COVID-19 IV Non-US Vaccine (CoronaVac, Sinovac)"
+    },
+    {
+      "cvx": "512",
+      "display": "COVID-19 VLP Non-US Vaccine (Medicago, Covifenz)"
+    },
+    {
+      "cvx": "513",
+      "display": "COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom, Zifivax)"
+    },
+    {
+      "cvx": "514",
+      "display": "COVID-19 DNA Non-US Vaccine (Zydus Cadila, ZyCoV-D)"
+    },
+    {
+      "cvx": "515",
+      "display": "COVID-19 PS Non-US Vaccine (Medigen, MVC-COV1901)"
+    },
+    {
+      "cvx": "516",
+      "display": "COVID-19 Inactivated Non-US Vaccine (Minhai Biotechnology Co, KCONVAC)"
+    },
+    {
+      "cvx": "517",
+      "display": "COVID-19 PS Non-US Vaccine (Biological E Limited, Corbevax)"
+    },
+    {
+      "cvx": "518",
+      "display": "COVID-19 Inactivated, Non-US Vaccine (VLA2001, Valneva)"
+    },
+    {
+      "cvx": "519",
+      "display": "COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine (Spikevax Bivalent), Moderna"
+    },
+    {
+      "cvx": "520",
+      "display": "COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-US Vaccine Product, Pfizer-BioNTech"
+    },
+    {
+      "cvx": "521",
+      "display": "COVID-19 SP, protein-based, adjuvanted (VidPrevtyn Beta), Sanofi-GSK"
+    }
+  ]
+}
