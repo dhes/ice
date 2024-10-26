@@ -1,0 +1,14 @@
+<clinicalStatements>
+	<observationResults>
+		<observationResult>
+			<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+			<id root="617478b8-b6eb-4988-853a-b5f5c2441eb8"/>
+			<observationFocus code="070.30" codeSystem="2.16.840.1.113883.6.103" displayName="Hepatitis B" originalText="070.30"/>
+			<observationEventTime low="19960315" high="19960315"/>
+			<observationValue>
+				<concept code="DISEASE_DOCUMENTED" codeSystem="2.16.840.1.113883.3.795.12.100.8" displayName="Disease Documented" originalText="DISEASE_DOCUMENTED"/>
+			</observationValue>
+			<interpretation code="IS_IMMUNE" codeSystem="2.16.840.1.113883.3.795.12.100.9" displayName="Is Immune" originalText="IS_IMMUNE"/>
+		</observationResult>
+	</observationResults>
+</clinicalStatements>
