@@ -38,4 +38,14 @@ Here's a nice query to fetch just the info you need for the ICE call.
 
 Sample output is found in patientImmunizationBundleSample.json. 
 
-Here is a link to [Centers for Disease Control and Prevention Immunization Information Systems Support Branch](https://www.cdc.gov/iis/functional-standards-v4-1/index.html)
+Here is a link to [Centers for Disease Control and Prevention Immunization Information Systems Support Branch](https://www.cdc.gov/iis/functional-standards-v4-1/index.html) This link includes a link to a [pdf](https://www.cdc.gov/iis/downloads/func-stds-v4-1-resource-guide.pdf) 
+
+More detail about CDSI resources including [logic specification and test cases](https://www.cdc.gov/iis/cdsi/?CDC_AAref_Val=https://www.cdc.gov/vaccines/programs/iis/cdsi.html) 
+
+Here are the links to [test case](https://www.cdc.gov/iis/downloads/cdsi-healthy-childhood-and-adult-test-cases-v4.39.xlsx) and [underlying conditions](https://www.cdc.gov/vaccines/programs/iis/downloads/CDSi-Underlying-Conditions-Test-Cases-v4.5.xlsx) from the CDC. 
+
+Here is a query to locate all resolved immunizable diseases which confer immunity. 
+```
+http://localhost:8080/fhir/Condition?clinical-status=resolved&category=problem-list-item&code=B05.9,B26.9,B06.9,B01.9,B19.10,A37.9,A36.9,A35,A80.9,B15.9
+```
+Please check the codes!
