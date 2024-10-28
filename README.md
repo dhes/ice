@@ -46,6 +46,5 @@ Here are the links to [test case](https://www.cdc.gov/iis/downloads/cdsi-healthy
 
 Here is a query to locate all resolved immunizable diseases which confer immunity. 
 ```
-http://localhost:8080/fhir/Condition?clinical-status=resolved&category=problem-list-item&code=B05.9,B26.9,B06.9,B01.9,B19.10,A37.9,A36.9,A35,A80.9,B15.9
+http://localhost:8080/fhir/Condition?clinical-status=resolved&category=problem-list-item&code=B05.9,B26.9,B06.9,B01.9,B19.10,A37.9,A36.9,A35,A80.9,B15.9&patient=Patient/ferd-berfel
 ```
-Please check the codes!
