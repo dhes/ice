@@ -48,3 +48,4 @@ Here is a query to locate all resolved immunizable diseases which confer immunit
 ```
 http://localhost:8080/fhir/Condition?clinical-status=resolved&category=problem-list-item&code=B05.9,B26.9,B06.9,B01.9,B19.10,A37.9,A36.9,A35,A80.9,B15.9&patient=Patient/ferd-berfel
 ```
+x
