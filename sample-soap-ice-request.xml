@@ -6,10 +6,10 @@
 			<specifiedTime>2012-01-14T00:00:00.000-05:00</specifiedTime>
 			<evaluationRequest clientLanguage="" clientTimeZoneOffset="">
 				<kmEvaluationRequest>
-					<kmId scopingEntityId="org.nyc.cir" businessId="ICE"
-</kmEvaluationRequest>
-<dataRequirementItemData>
-<driId itemId="cdsPayload">
+					<kmId scopingEntityId="org.nyc.cir" businessId="ICE"/>
+				</kmEvaluationRequest>
+				<dataRequirementItemData>
+					<driId itemId="cdsPayload">
 						<containingEntityId scopingEntityId="gov.nyc.health" businessId="ICEData" version="1.0.0.0"/>
 					</driId>
 					<data>

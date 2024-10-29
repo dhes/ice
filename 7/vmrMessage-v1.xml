@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns4:cdsInput xmlns:ns2="org.opencds"
+	xmlns:ns3="org.opencds.vmr.v1_0.schema.vmr"
+	xmlns:ns4="org.opencds.vmr.v1_0.schema.cdsinput"
+	xmlns:ns5="org.opencds.vmr.v1_0.schema.cdsoutput">
+	<templateId root="2.16.840.1.113883.3.795.11.1.1"/>
+	<cdsContext>
+		<cdsSystemUserPreferredLanguage code="en" codeSystem="2.16.840.1.113883.6.99" displayName="English"/>
+	</cdsContext>
+	<vmrInput>
+		<templateId root="2.16.840.1.113883.3.795.11.1.1"/>
+		<patient>
+			<templateId root="2.16.840.1.113883.3.795.11.2.1.1"/>
+			<id root="2.16.840.1.113883.3.795.12.100.11" extension="92"/>
+			<demographics>
+				<birthTime value="19530605"/>
+				<gender code="M" codeSystem="2.16.840.1.113883.5.1" displayName="Male"/>
+			</demographics>
+			<clinicalStatements>
+				<observationResults>
+					<observationResult>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="c413a175-f367-4158-b815-bd72c131a4f7"/>
+						<observationFocus code="B01.9" codeSystem="2.16.840.1.113883.6.90" displayName="Varicella without complication" originalText="B01.9"/>
+						<observationEventTime low="19541204" high="19541204"/>
+						<observationValue>
+							<concept code="DISEASE_DOCUMENTED" codeSystem="2.16.840.1.113883.3.795.12.100.8" displayName="Disease Documented" originalText="DISEASE_DOCUMENTED"/>
+						</observationValue>
+						<interpretation code="IS_IMMUNE" codeSystem="2.16.840.1.113883.3.795.12.100.9" displayName="Is Immune" originalText="IS_IMMUNE"/>
+					</observationResult>
+					<observationResult>
+						<templateId root="2.16.840.1.113883.3.795.11.6.3.1"/>
+						<id root="ab8a2780-e68a-4987-9a0a-c0182bb5b4f4"/>
+						<observationFocus code="B26.9" codeSystem="2.16.840.1.113883.6.90" displayName="Mumps without complication" originalText="B26.9"/>
+						<observationEventTime low="19590602" high="19590602"/>
+						<observationValue>
+							<concept code="DISEASE_DOCUMENTED" codeSystem="2.16.840.1.113883.3.795.12.100.8" displayName="Disease Documented" originalText="DISEASE_DOCUMENTED"/>
+						</observationValue>
+						<interpretation code="IS_IMMUNE" codeSystem="2.16.840.1.113883.3.795.12.100.9" displayName="Is Immune" originalText="IS_IMMUNE"/>
+					</observationResult>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="07f539e4-eab1-4882-968a-9a694521d796"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="797ee750-aaad-4ec2-a1cc-2a5f0ac0aa68"/>
+							<substanceCode code="208" codeSystem="2.16.840.1.113883.12.292" displayName="COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="46e478b9-a591-4d9d-bf25-9a89b0a265d0"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="9e8ff10f-5bd7-4041-a35e-144789aae815"/>
+							<substanceCode code="208" codeSystem="2.16.840.1.113883.12.292" displayName="COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="52413b52-e50e-402d-9334-e3d5298b9649"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="6234dde4-7fa4-4759-ba54-00f4f01e4bfe"/>
+							<substanceCode code="208" codeSystem="2.16.840.1.113883.12.292" displayName="COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="e7671b83-c698-40ee-8478-553848a7d6f4"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="1a2134c3-f5b9-4db9-b3ba-b0725c26b54b"/>
+							<substanceCode code="208" codeSystem="2.16.840.1.113883.12.292" displayName="COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="ae98a3c4-3770-43be-adc8-5bd0392c5ee1"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="271978d4-b58e-4b68-8953-ddd83af4e30a"/>
+							<substanceCode code="197" codeSystem="2.16.840.1.113883.12.292" displayName="influenza, high-dose seasonal, quadrivalent, .7mL dose, preservative free"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="c32fe773-1eb5-42d0-b4b6-6c7fc122742c"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="3ac35860-dbd6-489b-9c92-a5c5f7c55feb"/>
+							<substanceCode code="197" codeSystem="2.16.840.1.113883.12.292" displayName="influenza, high-dose seasonal, quadrivalent, .7mL dose, preservative free"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="880e95d1-d0d4-4cf9-9dba-9c32d3469872"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="e8799e12-9135-4831-9d72-ff49fbe223c6"/>
+							<substanceCode code="33" codeSystem="2.16.840.1.113883.12.292" displayName="pneumococcal polysaccharide vaccine, 23 valent"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="9c75320b-efda-4880-a9d3-2d893ec68ea2"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="f96a9a4e-bb1b-4a03-b543-d76e3c3c31e1"/>
+							<substanceCode code="115" codeSystem="2.16.840.1.113883.12.292" displayName="tetanus toxoid, reduced diphtheria toxoid, and acellular pertussis vaccine, adsorbed"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="2bb3345b-79a2-4c8a-a900-821e117bb6f8"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="a1914422-df37-4cde-9c45-71b346c8a848"/>
+							<substanceCode code="133" codeSystem="2.16.840.1.113883.12.292" displayName="pneumococcal conjugate vaccine, 13 valent"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="dc4d3c75-0ab2-4bfe-8418-91e0e72c4866"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="043f0aa8-fc58-4d2b-9543-ddfb264faf1b"/>
+							<substanceCode code="03" codeSystem="2.16.840.1.113883.12.292" displayName="measles, mumps and rubella virus vaccine"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="f4d6bf07-563b-4ef2-9bac-8d25177b8153"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="6de7026f-d39f-45e1-b626-098a91278c27"/>
+							<substanceCode code="187" codeSystem="2.16.840.1.113883.12.292" displayName="zoster vaccine recombinant"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="76b09aaa-2e72-4e7b-9174-e2d73657aa12"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="dacc5312-4d6f-4184-837e-caeaafa9ef46"/>
+							<substanceCode code="187" codeSystem="2.16.840.1.113883.12.292" displayName="zoster vaccine recombinant"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="960bdc51-aee3-4e1d-ad3d-1ef3e6e3a715"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="672a942f-0aec-4fea-a636-3bf38bb6f449"/>
+							<substanceCode code="52" codeSystem="2.16.840.1.113883.12.292" displayName="hepatitis A vaccine, adult dosage"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="0f170eb0-dfa8-49f9-b87a-1527e8911cda"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="18452120-b5fe-43d3-a039-30585d86d3f6"/>
+							<substanceCode code="115" codeSystem="2.16.840.1.113883.12.292" displayName="tetanus toxoid, reduced diphtheria toxoid, and acellular pertussis vaccine, adsorbed"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="3d129b2d-2966-413d-8d69-10a0ac13c3c7"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="645c5687-2864-4099-bfbc-ff9122240465"/>
+							<substanceCode code="205" codeSystem="2.16.840.1.113883.12.292" displayName="influenza, seasonal vaccine, quadrivalent, adjuvanted, 0.5mL dose, preservative free"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="aa7bd2a0-6850-4cb5-8eee-fc4f3015f308"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="d91f3ee5-4341-48e9-9ccf-5adbb141721c"/>
+							<substanceCode code="312" codeSystem="2.16.840.1.113883.12.292" displayName="SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 50 mcg/0.5 mL dose"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="6451ea4c-f249-48b4-a2bc-948159db4a96"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="c773270e-fdf5-471d-a004-c27f84f34a5b"/>
+							<substanceCode code="303" codeSystem="2.16.840.1.113883.12.292" displayName="RSV, recombinant, protein subunit RSVpreF, adjuvant reconstituted, 0.5 mL, PF"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="d956ab65-8466-41f5-bbcb-316ce63b8d4e"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="c30f05d1-f61d-463c-a70d-e9ac3998468d"/>
+							<substanceCode code="135" codeSystem="2.16.840.1.113883.12.292" displayName="Influenza, high-dose, split virus, trivalent, injectable, preservative free"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+					<substanceAdministrationEvent>
+						<templateId root="2.16.840.1.113883.3.795.11.9.1.1"/>
+						<id root="4c67c76d-f31b-49ff-8cf8-a9b247e5ed8d"/>
+						<substanceAdministrationGeneralPurpose code="Immunization/vaccination management (procedure)"/>
+						<substance>
+							<id root="4b269ca6-8c8a-494a-be0c-512d704ca672"/>
+							<substanceCode code="312" codeSystem="2.16.840.1.113883.12.292" displayName="SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 50 mcg/0.5 mL dose"/>
+						</substance>
+						<administrationTimeInterval low="NaNNaNNaN" high="NaNNaNNaN"/>
+						<note text="Administered at Pier across from federal building by Straub"/>
+					</substanceAdministrationEvent>
+				</observationResults>
+				<substanceAdministrationEvents/>
+			</clinicalStatements>
+		</patient>
+	</vmrInput>
+</ns4:cdsInput>
