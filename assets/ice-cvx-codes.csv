@@ -1,165 +1,0 @@
-Code Value,Description
-01,DTP
-02,OPV
-03,MMR
-04,Measles/Rubella
-05,Measles
-06,Rubella
-07,Mumps
-08,Hep B Peds < 20 years
-09,Td adult (absorbed)
-10,IPV
-15,"Influenza, Split"
-16,"Influenza, Whole"
-17,Hib NOS
-20,DTaP
-21,Varicella
-22,DTP-Hib  (Tetramune; OmniHib-DTP)
-28,DT (pediatric
-31,HepA Pediatric NOS
-32,Meningococcal MPSV4 (Menomune)
-33,Pneumococcal Polysaccharide 23 valent
-38,Mumps/Rubella
-46,Hib-PRP-D (ProHIBIT)
-47,Hib-HbOC (HibTITER)
-48,"Hib-PRP-T (ActHIB, Hiberix)"
-49,Hib-PRP-OMP (PedvaxHIB)
-42,Hep B High Risk Infant
-43,Hep B Adult >= 20 years
-44,Hep B Dialysis
-45,Hep B NOS
-50,DTaP-Hib (TriHiBit)
-51,Hep B-Hib (PRP-OMP (ComVAX))
-52,Hep A Adult
-Code Value,Description
-62,HPV Quadrivalent (Gardasil)
-74,Rotavirus
-75,vaccinia (smallpox) vaccine (ACAM2000)
-83,HepA ped/adol 2 dose
-84,HepA pediatric/adolescent (3 dose)
-85,HepA NOS
-88,"Influenza, unspecified formulation"
-89,"Polio, unspecified formulation"
-94,MMR-Varicella
-100,Pneumococcal Conjugate 7 valent (PCV 7)
-102,DTP-Hib-HepB
-104,Twinrix
-105,"vaccinia (smallpox) vaccine, diluted (Inactive; not preferred)"
-106,"DTaP, 5 pertussis antigens"
-107,"DTaP, unspecified formulation"
-108,"Meningococcal, unspecified formulation"
-109,Pneumococcal NOS
-110,DTaP/HepB/IPV
-111,"influenza, live, intranasal"
-113,Td (adult) preservative free
-114,Meningococcal MCV4P (Menactra)
-115,Tdap
-116,"Rotavirus RV5 (RotaTeq, 3-dose)"
-118,HPV Bivalent (Cervarix)
-119,"Rotavirus RV1 (Rotarix, 2-dose)"
-120,DTaP-Hib (PRP-T)-IPV
-121,"Zoster vaccine, live"
-122,Rotavirus NOS
-125,"Novel Influenza-H1N1-09, nasal"
-126,"Novel influenza-H1N1-09, preservative-free"
-127,Novel influenza-H1N1-09
-128,"Novel Influenza-H1N1-09, all formulations"
-130,DTaP/IPV
-132,"DTaP-IPV-Hib-HepB, Historical"
-133,Pneumococcal Conjugate 13 (PCV 13)
-135,"Influenza, high dose, seasonal"
-136,Meningococcal MCV4O (Menveo)
-137,HPV NOS
-138,"Td (adult, not adsorbed)"
-139,"Td, adult NOS"
-140,"Influenza, seasonal, injectable, preservative free"
-141,"Influenza, seasonal, injectable"
-144,"Influenza, seasonal, intradermal, preservative free"
-146,DTaP-IPV-Hib-HepB
-147,"Meningococcal MCV4, unspecified formulation"
-148,"Mening C&Y-Hib PRP-T (Menhibrix)   (Only Hib componentevaluated)"
-149,"Influenza, live, intranasal, quadrivalent"
-150,"Influenza, injectable, quadrivalent, preservative free"
-151,"Influenza nasal, unspecified formulation"
-153,"Influenza, injectable, MDCK, preservative free"
-155,"Influenza, injectable, MDCK, preservative free"
-Code Value,Description
-158,"Influenza-IIV4, IM (>3yrs)"
-161,"Influenza, injectable, quadrivalent, preservative free, pediatric"
-162,"Meningococcal B FHbp, recombinant (Trumenba)"
-163,"Meningococcal B 4C, OMV (Bexsero)"
-164,"Meningococcal B, NOS"
-165,HPV9
-166,"Influenza, intradermal, quadrivalent, preservative free, injectable"
-168,"Seasonal trivalent influenza vaccine, adjuvanted, preservative free"
-170,DTaP-IPV-Hib
-171,"Influenza, injectable, Madin Darby Canine Kidney, preservativefree, quadrivalent"
-178,OPV bivalent
-179,"OPV ,monovalent, unspecified (NOS)"
-182,"OPV, Unspecified (NOS)"
-185,"Influenza, recombinant, quadrivalent, injectable, preservative free"
-186,"Influenza, injectable, MDCK, quadrivalent"
-187,Zoster vaccine recombinant
-188,"Zoster vaccine, unspecified formulation (NOS)"
-189,"Hep B, adjuvanted"
-194,"Influenza, Southern Hemisphere, unspecified formulation"
-197,"Influenza, high dose, quadrivalent"
-198,DTP-Hep B-Hib Pentavalent Non-US
-200,"Influenza, Southern Hemisphere, pediatric, preservative free"
-201,"Influenza, Southern Hemisphere, preservative free"
-202,"Influenza, Southern Hemisphere, quadrivalent, with preservative"
-203,Meningococcal MenACWY-TT
-205,"Influenza, seasonal vaccine, quadrivalent, adjuvanted"
-206,"Vaccinia, smallpox monkeypox vaccine live, PF (JYNNEOS)"
-207,"COVID-19, mRNA, LNP-S, PF 100 mcg/0.5 mL (Moderna)"
-208,"COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose (Pfizer)"
-210,"COVID-19 vaccine, vector-nr, rS-ChAdOx1, PF, 0.5 mL(AstraZeneca)"
-211,"COVID-19 vaccine, Subunit, rS-nanoparticle+Matrix-M1Adjuvant, PF, 0.5 mL"
-212,"COVID-19 vaccine, vector-nr, rS-Ad26, PF, 0.5 mL (Janssen)"
-213,"COVID-19 vaccine, UNSPECIFIED"
-215,"Pneumococcal conjugate PCV15, polysaccharide CRM197conjugate, adjuvant, PF"
-216,"Pneumococcal conjugate PCV20, polysaccharide CRM197conjugate, adjuvant, PF"
-217,"COVID-19, mRNA, LNP-S, PF, 30 mcg/0.3 mL dose,tris-sucrose (Pfizer)"
-218,"COVID-19, mRNA, LNP-S, PF, 10 mcg/0.2 mL dose,tris-sucrose (Pfizer)"
-219,"Pfizer COVID-19 Vaccine (Preferable age range: >= 6 monthsto < 5 years)"
-220,"HepB recombinant, 3-antigen, Al(OH)3"
-221,"Moderna COVID-19 Vaccine (Preferable age ranges: >= 6 yearsto < 12 years OR >= 18 years)"
-227,Moderna COVID-19 Vaccine (Inactive)
-Code Value,Description
-228,"Moderna COVID-19 Vaccine (Preferable age range: >= 6months to < 6 years)"
-229,"Moderna COVID-19 Vaccine, Bivalent Booster(Preferable Age Range: > 6 years and < 12 years (0.25mL dose);>= 12 years (0.5mL dose))"
-231,"Influenza, Southern Hemisphere, high-dose, quadrivalent"
-300,"Pfizer COVID-19 Vaccine, Bivalent Booster (Preferable AgeRange: >= 12 years)"
-301,"Pfizer COVID-19 Vaccine, Bivalent Booster(Preferable Age Range: > 5 years and <= 12 years)"
-308,"COVID-19, XBB.1.5, mRNA, LNP-S, PF, tris-sucrose, 6 mos-4yrs, Pfizer"
-309,"COVID-19, XBB.1.5, mRNA, LNP-S, PF, tris-sucrose, 12+ yrs,Pfizer"
-310,"COVID-19, XBB.1.5, mRNA, LNP-S, PF, tris-sucrose, 5-11 yrs,Pfizer"
-311,"COVID-19, XBB.1.5, mRNA, LNP-S, PF, 6 mos-11 yrs,Moderna"
-312,"COVID-19, XBB.1.5, mRNA, LNP-S, PF, 12+ yrs, Moderna"
-313,"COVID-19, XBB.1.5, subunit, rS-nanoparticle, adjuvanted, PF,12+ yrs, Novavax"
-316,Meningococcal MenABCWY (Penbraya)
-320,"Influenza, MDCK, trivalent, preservative"
-500,"COVID-19 Non-US Vaccine, Product Unknown"
-501,COVID-19 IV Non-US Vaccine (QAZCOVID-IN)
-502,COVID-19 IV Non-US Vaccine (COVAXIN)
-503,COVID-19 LAV Non-US Vaccine (COVIVAC)
-504,COVID-19 VVnr Non-US Vaccine (Sputnik Light)
-505,COVID-19 VVnr Non-US Vaccine (Sputnik V)
-506,"COVID-19 VVnr Non-US Vaccine (CanSino BiologicalInc./Beijing Institute of Biotechnology)"
-507,"COVID-19 PS Non-US Vaccine (Anhui Zhifei LongcomBiopharm + Inst of Micro, Chinese Acad of Sciences)"
-508,"COVID-19 PS Non-US Vaccine (Jiangsu Province Centers forDisease Control and Prevention)"
-509,COVID-19 PS Non-US Vaccine (EpiVacCorona)
-510,"COVID-19 IV Non-US Vaccine (BIBP, Sinopharm)"
-511,"COVID-19 IV Non-US Vaccine (CoronaVac, Sinovac)"
-512,"COVID-19 VLP Non-US Vaccine (Medicago, Covifenz)"
-513,"COVID-19 PS Non-US Vaccine (Anhui Zhifei Longcom,Zifivax)"
-514,"COVID-19 DNA Non-US Vaccine (Zydus Cadila, ZyCoV-D)"
-515,"COVID-19 PS Non-US Vaccine (Medigen, MVC-COV1901)"
-516,"COVID-19 Inactivated Non-US Vaccine (Minhai BiotechnologyCo, KCONVAC)"
-517,"COVID-19 PS Non-US Vaccine (Biological E Limited,Corbevax)"
-518,"COVID-19 Inactivated, Non-US Vaccine (VLA2001, Valneva)"
-519,"COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-USVaccine (Spikevax Bivalent), Moderna"
-520,"COVID-19 mRNA, bivalent, original/Omicron BA.1, Non-USVaccine Product, Pfizer-BioNTech"
-Code Value,Description
-521,"COVID-19 SP, protein-based, adjuvanted (VidPrevtyn Beta),"
-"",Sanofi-GSK
